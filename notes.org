@@ -1,0 +1,28 @@
+#+TITLE: Notes
+
+
+#+begin_src shell
+ls -la
+#+end_src
+
+#+RESULTS:
+| total       | 56 |    |       |      |    |     |       |             |
+| drwxr-xr-x  | 11 | ph | staff |  352 | 13 | Apr | 10:35 | .           |
+| drwxr-xr-x  | 29 | ph | staff |  928 | 13 | Apr | 10:00 | ..          |
+| -rw-r--r--@ |  1 | ph | staff | 6148 | 13 | Apr | 10:00 | .DS_Store   |
+| drwxr-xr-x  | 13 | ph | staff |  416 | 13 | Apr | 12:08 | .git        |
+| -rw-r--r--  |  1 | ph | staff |   42 | 13 | Apr | 10:07 | .gitignore  |
+| drwxr-xr-x  |  4 | ph | staff |  128 | 13 | Apr | 10:03 | .vagrant    |
+| -rw-r--r--  |  1 | ph | staff |  903 | 13 | Apr | 10:26 | Makefile    |
+| -rw-r--r--  |  1 | ph | staff |  269 | 13 | Apr | 10:19 | README.md   |
+| -rw-r--r--  |  1 | ph | staff |  631 | 13 | Apr | 10:29 | Vagrantfile |
+| drwxr-xr-x  |  3 | ph | staff |   96 | 13 | Apr | 10:35 | data        |
+| -rw-r--r--  |  1 | ph | staff |  126 | 13 | Apr | 12:08 | shell.sh    |
+
+
+#+begin_src elisp
+(+ 80 20x)
+#+end_src
+
+#+RESULTS:
+: 100

@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
     vbox.cpus = 6
   end
 
-  config.vm.synced_folder "data/", "/root/downloads"
+  config.vm.synced_folder "data/", "/home/vagrant/downloads"
 
 
   # Loop to define boxes
