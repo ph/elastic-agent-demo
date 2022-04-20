@@ -1,5 +1,5 @@
 SHELL=/usr/bin/env bash
-VERSION?=8.1.2
+VERSION?=8.1.3
 URL?="https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-${VERSION}-linux-x86_64.tar.gz"
 BASE_ARTIFACT=${shell basename ${URL}}
 
